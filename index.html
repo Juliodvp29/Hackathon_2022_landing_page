@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Hackathon 2022</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-header">
+            <div class="nav_logo">
+                <h1>Hackathon 2022</h1>
+            </div>
+            <ul class="nav_menu" id="nav-menu">
+                <li class="nav_item"><a class="nav_link" href="#presentacion">Presentacion</a></li>
+                <li class="nav_item"><a class="nav_link" href="#form">Formulario</a></li>
+            </ul>
+        </nav>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </header>
+    <main class="main">
+        <section id="presentacion" class="presentacion">
+            <div class="presentacion__bg">
+                <div class="presentacion__text">
+                    <h1>Hackathon 2022</h1>
+                    <p>
+                        Participa en el Hackathon 2022 y descubre las nuevas tecnologías que están apareciendo en el mundo.
+                    </p>
+                </div>
+                <div class="presentacion__img">
+                    <img src="assets/back_image.svg" alt="">
+                </div>
+            </div>
+            <div class="info">
+                <div class="objective">
+                    <h2>Objetivo</h2>
+                    <p>
+                        El objetivo principal es ejecutar retos en movilidad en taxi en menos de tres días.
+                    </p>
+                </div>
+                <div class="place_and_date">
+                    <h2>Lugar y fecha</h2>
+                    <p>
+                        <span>Lugar:</span>
+                        <span>Bogota</span>
+                    </p>
+                    <p>
+                        <span>Fecha:</span>
+                        <span>22 de Septiembre de 2022</span>
+                    </p>
+                </div>
+                <div class="premios">
+                    <h2>Premios</h2>
+                    <p>
+                        <span>1er Lugar:</span>
+                        <span>$1,000,000</span>
+                    </p>
+                    <p>
+                        <span>2do Lugar:</span>
+                        <span>$500,000</span>
+                    </p>
+                    <p>
+                        <span>3er Lugar:</span>
+                        <span>$100,000</span>
+                    </p>
+                </div>
+                <div class="patrocinadores">
+                    <h2>Patrocinadores oficiales</h2>
+                    <div class="patrocinadores__logos">
+                        <div class="item">
+                            <box-icon type='logo' name='microsoft'></box-icon>
+                        </div>
+                        <div class="item">
+                            <box-icon type='logo' name='linkedin-square'></box-icon>
+                        </div>
+                        <div class="item">
+                            <box-icon type='logo' name='apple'></box-icon>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <form id="form">
+                <h2 class="form_title">Inscribite</h2>
+                <div class="form-section">
+                    <label for="nombre">Nombres</label>
+                    <input type="text" name="nombre" id="nombre" class="input" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-section">
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" class="input" placeholder="example@gmail.com">
+                </div>
+                <div class="form-section">
+                    <label for="genero">Genero</label>
+                    <select name="genero" id="genero" class="input">
+                        <option value="">Seleccione</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                        <option value="O">Otro</option>
+                    </select>
+                </div>
+                <div class="form-section">
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date" name="fecha" id="fecha" class="input">
+                </div>
+                <div class="form-section">
+                    <label for="pais">Pais</label>
+                    <select name="pais" id="pais" class="input">
+                        <option value="">Seleccione</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Brasil">Brasil</option>
+                  
+                  >
+                    </select>
+                </div>
+                <div class="form-section terminos">
+                    <a href="#">Terminos y condiciones</a>
+                    <input type="checkbox" name="terminos" id="terminos" class="input">
+                </div>
+                <div class="form-section">
+                    <button class="btn">Registrate</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__title">Hackathon 2022</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/julioerq/" class="footer__icon" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+        <p>©, 2022 copyright todos los derechos reservados</p>
+    </footer>
+</body>
+<script src="JS/main.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+</html>
